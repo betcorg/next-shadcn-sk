@@ -5,5 +5,5 @@ Configuration and documentation repository for Next.js 16 Claude Code+ shadcn/ui
 ## Installation
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/betcorg/next-shadcn-starter-kit/main/src/scripts/setup.sh)"
+curl -fsSL https://raw.githubusercontent.com/betcorg/next-shadcn-sk/refs/heads/master/src/scripts/setup.sh | bash
 ```
