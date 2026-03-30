@@ -24,7 +24,7 @@ if [[ -n "${BASH_SOURCE[0]:-}" && -f "${BASH_SOURCE[0]:-}" && "$(basename "${BAS
   KIT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 else
   # Remote execution
-  KIT_REPO="https://github.com/betcorg/next-shadcn-starter-kit.git"
+  KIT_REPO="https://github.com/betcorg/next-shadcn-sk.git"
   TEMP_KIT_DIR="/tmp/next-shadcn-starter-kit-$(date +%s)"
   
   step "Downloading Starter Kit from GitHub"
