@@ -1,0 +1,16 @@
+# Credenciales — NUNCA deben llegar al repo
+.env
+.env.local
+.env.*.local
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/settings.json
+.idea/
+
+# Logs de scripts
+*.log
+# next-agents-md
+.next-docs/
